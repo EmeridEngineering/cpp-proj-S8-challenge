@@ -37,10 +37,9 @@
 
 int main() {
 
-    // Ask the user to provide the amount of cents
-    std::cout << "Default Template." << std::endl;
-
-    // Prompt and Store the amount of pennies
+    std::cout << "Enter an amount in cents: ";
+    int cents_amount {0};
+    std::cin >> cents_amount;
 
     // Calculate the change 
     // - define the conversion rates and variables to store the change
