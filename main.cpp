@@ -62,7 +62,8 @@ int main() {
     std::cout << "\nquarters: " << cents_amount / quarter_to_cents; // division operator with two integers as operands returns a flor integer
     cents_amount %= quarter_to_cents;
 
-    // - repeat for dimes
+    std::cout << "\ndimes: " << cents_amount / dime_to_cents; // division operator with two integers as operands returns a flor integer
+    cents_amount %= dime_to_cents;
 
     // - repeat for nickels
 
