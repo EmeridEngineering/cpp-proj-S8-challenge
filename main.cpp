@@ -49,15 +49,17 @@ int main() {
     const int nickel_to_cents {5};
     const int penny_to_cents {1};
 
-    int dollar_change {};
+    // int dollar_change {};
     int quarter_change {};
     int dime_change {};
     int nickel_change {};
     int penny_change {};
 
-    // - divide amount of pennies by dollar to cents to get the number of dollars and display it
-
-    // - use modulo compound assignment operator to get the rest of the pennies and proceed with quarters
+    std::cout << "\nYou can provide the change as follows:" << std::endl;
+    std::cout << "dollars: " << cents_amount / dollar_to_cents; // division operator with two integers as operands returns a flor integer
+    cents_amount %= dollar_to_cents;
+    
+    // - repeat for quarters
 
     // - repeat for dimes
 
