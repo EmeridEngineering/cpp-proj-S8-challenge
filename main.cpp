@@ -50,7 +50,7 @@ int main() {
     const int penny_to_cents {1};
 
     // int dollar_change {};
-    int quarter_change {};
+    // int quarter_change {};
     int dime_change {};
     int nickel_change {};
     int penny_change {};
@@ -59,7 +59,8 @@ int main() {
     std::cout << "dollars: " << cents_amount / dollar_to_cents; // division operator with two integers as operands returns a flor integer
     cents_amount %= dollar_to_cents;
     
-    // - repeat for quarters
+    std::cout << "\nquarters: " << cents_amount / quarter_to_cents; // division operator with two integers as operands returns a flor integer
+    cents_amount %= quarter_to_cents;
 
     // - repeat for dimes
 
