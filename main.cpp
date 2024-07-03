@@ -36,7 +36,30 @@
 #include <iostream>
 
 int main() {
+
+    // Ask the user to provide the amount of cents
     std::cout << "Default Template." << std::endl;
+
+    // Prompt and Store the amount of pennies
+
+    // Calculate the change 
+    // - define the conversion rates and variables to store the change
+    //  - dollar to cents = 100
+    //  - quarter to cents = 25
+    //  - dime to cents = 10
+    //  - nickel to cents = 5
+    //  - penny to cents = 1
+
+    // - divide amount of pennies by dollar to cents to get the number of dollars and display it
+
+    // - use modulo compound assignment operator to get the rest of the pennies and proceed with quarters
+
+    // - repeat for dimes
+
+    // - repeat for nickels
+
+    // - assign the rest to pennies and display 
+    
 
     return 0;
 }
