@@ -43,11 +43,17 @@ int main() {
 
     // Calculate the change 
     // - define the conversion rates and variables to store the change
-    //  - dollar to cents = 100
-    //  - quarter to cents = 25
-    //  - dime to cents = 10
-    //  - nickel to cents = 5
-    //  - penny to cents = 1
+    const int dollar_to_cents {100};
+    const int quarter_to_cents {25};
+    const int dime_to_cents {10};
+    const int nickel_to_cents {5};
+    const int penny_to_cents {1};
+
+    int dollar_change {};
+    int quarter_change {};
+    int dime_change {};
+    int nickel_change {};
+    int penny_change {};
 
     // - divide amount of pennies by dollar to cents to get the number of dollars and display it
 
